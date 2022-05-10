@@ -1,0 +1,9 @@
+
+<div id="ContactDiv" style="text-align: center">
+
+  <h2 id="Title">Address Book</h2><br>
+
+  <angular2-smart-table [settings]="settings" [source]="source" (deleteConfirm)="deleteContact($event)" (editConfirm)="editContact($event)"
+      (createConfirm)="createContact($event)"></angular2-smart-table>
+
+</div>
